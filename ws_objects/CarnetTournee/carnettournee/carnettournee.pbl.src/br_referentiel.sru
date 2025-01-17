@@ -35,6 +35,7 @@ return(1)
 end function
 
 public function integer uf_check_absence (any aa_value, ref string as_message);// Absence O/N
+// test2025
 string	ls_data
 
 ls_data = f_string(aa_value)

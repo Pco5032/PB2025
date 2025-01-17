@@ -63,7 +63,7 @@ return(1)
 end function
 
 public function integer uf_check_accomp (any aa_value, ref string as_message);// personnes ayant participé à l'activité (facultatif)
-
+// Test2025_brsaisie
 return(1)
 end function
 
