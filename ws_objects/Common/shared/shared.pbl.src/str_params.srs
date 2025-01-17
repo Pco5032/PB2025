@@ -1,0 +1,5 @@
+﻿$PBExportHeader$str_params.srs
+global type str_params from structure
+	any		a_param[]
+end type
+

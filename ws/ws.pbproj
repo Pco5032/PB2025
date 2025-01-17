@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Project>
+  <Type Name="pb"/>
+  <Application Name="ws"/>
+  <DeployConfigurations OutputDirectory="Build\bin\$(ConfigurationName)"/>
+  <Libraries AppEntry="ws.pbl">
+    <Library Path="ws.pbl"/>
+  </Libraries>
+  <Sources>
+    <Source Path="ws.pbl\d_ws.srd"/>
+    <Source Path="ws.pbl\f_mandcolor.srf"/>
+    <Source Path="ws.pbl\ws.sra"/>
+    <Source Path="ws.pbl\w_ws.srw"/>
+    <Source Path="ws.pbl\f_visible.srf"/>
+    <Source Path="ws.pbl\d.srd"/>
+    <Source Path="ws.pbl\f_getrow.srf"/>
+  </Sources>
+</Project>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Project>
+  <Type Name="pb"/>
+  <Application Name="test"/>
+  <DeployConfigurations OutputDirectory="Build\bin\$(ConfigurationName)">
+    <DeployConfiguration Name="p_test" Path="Test\test.pbl\p_test.srj"/>
+  </DeployConfigurations>
+  <Libraries AppEntry="Test\test.pbl">
+    <Library Path="Test\test.pbl"/>
+  </Libraries>
+  <Sources>
+    <Source Path="Test\test.pbl\test.sra"/>
+    <Source Path="Test\test.pbl\w_testmdi.srw"/>
+    <Source Path="Test\test.pbl\w_testwindow.srw"/>
+    <Source Path="Test\test.pbl\m_testmenu.srm"/>
+  </Sources>
+</Project>

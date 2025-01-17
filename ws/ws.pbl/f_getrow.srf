@@ -1,0 +1,10 @@
+﻿global type f_getrow from function_object
+end type
+
+forward prototypes
+global function long f_getrow (long al_row)
+end prototypes
+
+global function long f_getrow (long al_row);return(al_row)
+end function
+

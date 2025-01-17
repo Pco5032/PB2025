@@ -1,0 +1,15 @@
+﻿$PBExportHeader$d_dnfgroups.srd
+release 7;
+datawindow(units=0 timer_interval=0 color=79741120 processing=0 HTMLDW=no print.documentname="" print.orientation = 0 print.margin.left = 110 print.margin.right = 110 print.margin.top = 96 print.margin.bottom = 96 print.paper.source = 0 print.paper.size = 0 print.prompt=no print.buttons=no print.preview.buttons=no )
+summary(height=0 color="536870912" )
+footer(height=0 color="536870912" )
+detail(height=104 color="536870912" )
+table(column=(type=decimal(0) update=yes updatewhereclause=yes key=yes name=groupid dbname="dnfgroups.groupid" )
+ column=(type=char(30) update=yes updatewhereclause=yes name=description dbname="dnfgroups.description" )
+ retrieve="PBSELECT( VERSION(400) TABLE(NAME=~"dnfgroups~" ) COLUMN(NAME=~"dnfgroups.groupid~") COLUMN(NAME=~"dnfgroups.description~")WHERE(    EXP1 =~"dnfgroups.groupid~"   OP =~"=~"    EXP2 =~":an_groupe~" ) ) ORDER(NAME=~"dnfgroups.groupid~" ASC=yes ) ARG(NAME = ~"an_groupe~" TYPE = number) " update="dnfgroups" updatewhere=1 updatekeyinplace=yes arguments=(("an_groupe", number)) )
+column(band=detail id=1 alignment="1" tabsequence=10 border="5" color="0" x="110" y="4" height="64" width="146" format="[general]"  name=groupid pointer="Help!" editmask.mask="##0" editmask.focusrectangle=no  font.face="Arial" font.height="-9" font.weight="700"  font.family="2" font.pitch="2" font.charset="0" background.mode="2" background.color="16777215" )
+text(band=detail alignment="0" text="N°" border="0" color="0" x="18" y="4" height="64" width="73"  name=groupid_t  font.face="Arial" font.height="-10" font.weight="400"  font.family="2" font.pitch="2" font.charset="0" background.mode="1" background.color="536870912" )
+column(band=detail id=2 alignment="0" tabsequence=20 border="5" color="0" x="640" y="4" height="64" width="1024" format="[general]"  name=description edit.limit=30 edit.case=any edit.focusrectangle=no edit.autoselect=yes edit.autohscroll=yes  font.face="Arial" font.height="-9" font.weight="400"  font.family="2" font.pitch="2" font.charset="0" background.mode="0" background.color="16777215~tf_mandcolor()" )
+text(band=detail alignment="0" text="Description" border="0" color="0" x="293" y="4" height="64" width="329"  name=description_t  font.face="Arial" font.height="-10" font.weight="400"  font.family="2" font.pitch="2" font.charset="0" background.mode="1" background.color="536870912" )
+htmltable(border="1" )
+htmlgen(clientevents="1" clientvalidation="1" clientcomputedfields="1" clientformatting="0" clientscriptable="0" generatejavascript="1" )

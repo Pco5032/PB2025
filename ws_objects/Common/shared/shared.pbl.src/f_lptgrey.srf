@@ -1,0 +1,11 @@
+﻿$PBExportHeader$f_lptgrey.srf
+global type f_lptgrey from function_object
+end type
+
+forward prototypes
+global function long f_lptgrey ()
+end prototypes
+
+global function long f_lptgrey ();return(gl_lptgrey)
+end function
+

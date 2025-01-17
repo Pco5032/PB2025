@@ -1,0 +1,11 @@
+﻿$PBExportHeader$f_visible.srf
+global type f_visible from function_object
+end type
+
+forward prototypes
+global function integer f_visible (long al_row)
+end prototypes
+
+global function integer f_visible (long al_row);return(mod(al_row,2))
+end function
+

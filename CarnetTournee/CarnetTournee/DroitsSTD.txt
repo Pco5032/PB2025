@@ -1,0 +1,20 @@
+PF :
+- Consulter le planning de leur C1.
+
+C1 :
+- Consulter, modifier, valider le planning et le réalisé des agents de leur brigade.
+
+CP :
+- Consulter, modifier, valider le planning et le réalisé des agents de leur cantonnement CP d'un cantonnement) ou de tous les cantonnements de leur Direction (CP d'une Direction).
+- Gérer le remplacement d’un responsable absent temporairement
+
+GRADUE :
+- Consulter le planning et le réalisé des agents de leur cantonnement (gradué d'un cantonnement) ou de tous les cantonnements de leur Direction (gradué d'une Direction).
+
+CC :
+- Consulter, modifier, valider le planning et le réalisé de tous les agents du cantonnement.
+- Gérer le remplacement d’un responsable absent temporairement.
+
+DIR :
+- Consulter le planning et le réalisé de tous les agents de la Direction.
+- Gérer le remplacement d’un responsable absent temporairement.

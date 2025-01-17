@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Project>
+  <Type Name="pb"/>
+  <Application Name="test2025"/>
+  <DeployConfigurations OutputDirectory="Build\bin\$(ConfigurationName)"/>
+  <Libraries AppEntry="test2025.pbl">
+    <Library Path="test2025.pbl"/>
+  </Libraries>
+  <Sources>
+    <Source Path="test2025.pbl\m_testmenu.srm"/>
+    <Source Path="test2025.pbl\test2025.sra"/>
+    <Source Path="test2025.pbl\w_mdi.srw"/>
+    <Source Path="test2025.pbl\w_testwindow.srw"/>
+  </Sources>
+</Project>

@@ -1,0 +1,10 @@
+﻿global type f_visible from function_object
+end type
+
+forward prototypes
+global function integer f_visible ()
+end prototypes
+
+global function integer f_visible ();return(1)
+end function
+
